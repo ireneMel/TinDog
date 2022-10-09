@@ -17,6 +17,12 @@ h1 {
     line-height: 1.2;
 }
 
+h2 {
+    font: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 p {
     color: rgb(171, 168, 168);
 }
@@ -78,5 +84,27 @@ p {
 
 /* testimonial section */
 #testimonials {
-    
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testomanial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px
+}
+
+/* press section */
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
