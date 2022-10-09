@@ -84,10 +84,14 @@ p {
 
 /* testimonial section */
 #testimonials {
-    padding: 7% 20%;
+    
     text-align: center;
     background-color: #ef8172;
     color: white;
+}
+
+.carousel-item {
+    padding: 7% 20%;
 }
 
 .testomanial-image {
