@@ -84,13 +84,13 @@ p {
 
 /* testimonial section */
 #testimonials {
-    padding: 7% 15%;
+    padding: 7% 20%;
     text-align: center;
     background-color: #ef8172;
     color: white;
 }
 
-.testomanial-image{
+.testomanial-image {
     width:10%;
     border-radius: 100%;
     margin: 20px
