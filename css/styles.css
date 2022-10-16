@@ -1,30 +1,53 @@
-#title {
-    background-color: #ff4c68;
-    color: white;
-}
-
-.container-fluid {
-    padding: 3% 15%;
-}
-
 body {
     font: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: rgb(171, 168, 168);
+}
+
+/* Headings */
+
+.big-heading {
     font-weight: bold;
     font-size: 4rem;
     line-height: 1.2;
 }
 
-h2 {
-    font: 'Montserrat', sans-serif;
+.section-heading {
     font-size: 3rem;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
-p {
-    color: rgb(171, 168, 168);
+#title {
+    text-align: left;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
 }
 
 /* Navigation bar */
@@ -54,23 +77,23 @@ p {
 
 /* Title image */
 .title-img {
-    transform: rotate(25deg);
     width: 60%;
-
+    transform: rotate(25deg);
+    position: relative;
 }
 
-/* /////////////////////////////// */
-/* Section 2 - Features*/
-/* ////////////////////////////// */
-
 /* Features */
+
 #features {
-    margin: 10% 15rem;
+    padding: 7% 15%;
+}
+
+.feature-title {
+    font-size: 1.5rem;
 }
 
 .feature {
-    text-align: center;
-    padding: 4%;
+    padding: 4.5%;
 }
 
 .section2-icons {
@@ -82,11 +105,15 @@ p {
     color: #ff4c88;
 }
 
-/* testimonial section */
+/* Testimonials */
+
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
-    color: white;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .carousel-item {
@@ -94,15 +121,14 @@ p {
 }
 
 .testomanial-image {
-    width:10%;
+    width: 10%;
     border-radius: 100%;
     margin: 20px
 }
 
-/* press section */
+/* Press */
 
 #press {
-    text-align: center;
     background-color: #ef8172;
     padding-bottom: 3%;
 }
@@ -112,12 +138,45 @@ p {
     margin: 20px 20px 50px;
 }
 
-/* pricing section */
+/* Pricing */
+
 #pricing {
     padding: 100px;
 }
 
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        display: none;
+    }
+}
+
 .pricing-col {
     padding: 3% 2%;
-    text-align: center;
+}
+
+/* footter */
+#cta {
+    padding: 5%;
+    font: 'Montserrat', sans-serif;
+}
+
+/* footer */
+#footer {
+    margin: 6% auto;
+}
+
+.icons {
+    margin: 0.5%;
+}
+
+.myicon {
+    margin: 2%;
 }
